@@ -1,0 +1,2 @@
+*_record.txt holds a log file created with the [PassiveModbusMonitor](https://github.com/mr-entropia/PassiveModbusMonitor) from @mr-entropia  
+*_fronius_api.json holds a json response from the [inverter](http://<ip_of_inverter>/solar_api/v1/GetMeterRealtimeData.cgi?Scope=Device&DeviceId=0&DataCollection=MeterRealtimeData) which was taken while sniffing the modbus data

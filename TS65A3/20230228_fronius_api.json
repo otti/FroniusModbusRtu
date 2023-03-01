@@ -1,0 +1,60 @@
+{
+   "Body" : {
+      "Data" : {
+         "Current_AC_Phase_1" : 1.1579999999999999,
+         "Current_AC_Phase_2" : -0.41899999999999998,
+         "Current_AC_Phase_3" : -0.753,
+         "Current_AC_Sum" : -0.014000000000000123,
+         "Details" : {
+            "Manufacturer" : "Fronius",
+            "Model" : "Smart Meter TS 65A-3",
+            "Serial" : "1234567890"
+         },
+         "Enable" : 1,
+         "EnergyReactive_VArAC_Sum_Consumed" : 306143.0,
+         "EnergyReactive_VArAC_Sum_Produced" : 463941.0,
+         "EnergyReal_WAC_Minus_Absolute" : 1203126.0,
+         "EnergyReal_WAC_Plus_Absolute" : 987340.0,
+         "EnergyReal_WAC_Sum_Consumed" : 987340.0,
+         "EnergyReal_WAC_Sum_Produced" : 1203126.0,
+         "Frequency_Phase_Average" : 49.899999999999999,
+         "Meter_Location_Current" : 0.0,
+         "PowerApparent_S_Phase_1" : 207.80000000000001,
+         "PowerApparent_S_Phase_2" : 80.700000000000003,
+         "PowerApparent_S_Phase_3" : 176.69999999999999,
+         "PowerApparent_S_Sum" : 465.30000000000001,
+         "PowerFactor_Phase_1" : 0.99399999999999999,
+         "PowerFactor_Phase_2" : -0.997,
+         "PowerFactor_Phase_3" : -0.70999999999999996,
+         "PowerFactor_Sum" : 0.0050000000000000001,
+         "PowerReactive_Q_Phase_1" : -22.0,
+         "PowerReactive_Q_Phase_2" : -6.7000000000000002,
+         "PowerReactive_Q_Phase_3" : -124.40000000000001,
+         "PowerReactive_Q_Sum" : -153.19999999999999,
+         "PowerReal_P_Phase_1" : 206.69999999999999,
+         "PowerReal_P_Phase_2" : -80.400000000000006,
+         "PowerReal_P_Phase_3" : -125.5,
+         "PowerReal_P_Sum" : 0.69999999999999996,
+         "TimeStamp" : 1677600854,
+         "Visible" : 1,
+         "Voltage_AC_PhaseToPhase_12" : 410.89999999999998,
+         "Voltage_AC_PhaseToPhase_23" : 411.89999999999998,
+         "Voltage_AC_PhaseToPhase_31" : 411.10000000000002,
+         "Voltage_AC_Phase_1" : 236.80000000000001,
+         "Voltage_AC_Phase_2" : 237.69999999999999,
+         "Voltage_AC_Phase_3" : 238.0
+      }
+   },
+   "Head" : {
+      "RequestArguments" : {
+         "DeviceId" : "0",
+         "Scope" : "Device"
+      },
+      "Status" : {
+         "Code" : 0,
+         "Reason" : "",
+         "UserMessage" : ""
+      },
+      "Timestamp" : "2023-02-28T16:14:14+00:00"
+   }
+}
