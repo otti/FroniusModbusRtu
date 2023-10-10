@@ -30,12 +30,12 @@ Every second
    <tr>
       <td>264..265</td>
       <td>PowerApparent_S_Sum</td>
-      <td>0.1 W</td>
+      <td>0.1 VA</td>
    </tr>
    <tr>
       <td>266..267</td>
       <td>PowerReactive_Q_Sum</td>
-      <td>0.1 W</td>
+      <td>0.1 var</td>
    </tr>
    <tr>
       <td>268..269</td>
@@ -92,12 +92,12 @@ Every second
    <tr>
       <td>294..295</td>
       <td>PowerApparent_S_Phase_1</td>
-      <td>0.1 W</td>
+      <td>0.1 VA</td>
    </tr>
    <tr>
       <td>296..297</td>
       <td>PowerReactive_Q_Phase_1</td>
-      <td>0.1 W</td>
+      <td>0.1 var</td>
    </tr>
    <tr>
       <td>298..299</td>
@@ -131,12 +131,12 @@ Every second
    <tr>
       <td>308..309</td>
       <td>PowerApparent_S_Phase_2</td>
-      <td>0.1 W</td>
+      <td>0.1 VA</td>
    </tr>
    <tr>
       <td>310..311</td>
       <td>PowerReactive_Q_Phase_2</td>
-      <td>0.1 W</td>
+      <td>0.1 var</td>
    </tr>
    <tr>
       <td>312..313</td>
@@ -170,12 +170,12 @@ Every second
    <tr>
       <td>322..323</td>
       <td>PowerApparent_S_Phase_3</td>
-      <td>0.1 W</td>
+      <td>0.1 VA</td>
    </tr>
    <tr>
       <td>324..325</td>
       <td>PowerReactive_Q_Phase_3</td>
-      <td>0.1 W</td>
+      <td>0.1 var</td>
    </tr>
    <tr>
       <td>326..327</td>
@@ -189,7 +189,7 @@ Every 10 seconds
 
 Every energy value is stored in four registers.  
 Example for EnergyReactive_VArAC_Sum_Produced:  
-For example the actual value energy value is 463941 Wh. The kilowatt hours (463) are stored in register 1036..1037. The watt hours (941) are stored in register 1038..1039. 
+For example the actual energy value is 463941 Wh. The kilowatt hours (463) are stored in register 1036..1037. The watt hours (941) are stored in register 1038..1039. 
 To get the total energy in Wh multiply register 1036..1037 by 1000 and add register 1038..1039 to it.
 
 <table>
@@ -211,12 +211,12 @@ To get the total energy in Wh multiply register 1036..1037 by 1000 and add regis
    <tr>
       <td>1028..1029</td>
       <td>EnergyReactive_VArAC_Sum_Consumed</td>
-      <td>kWh</td>
+      <td>kvarh</td>
    </tr>
    <tr>
       <td>1030..1031</td>
       <td>EnergyReactive_VArAC_Sum_Consumed</td>
-      <td>Wh</td>
+      <td>varh</td>
    </tr>
    <tr>
       <td>1032..1033</td>
@@ -231,12 +231,12 @@ To get the total energy in Wh multiply register 1036..1037 by 1000 and add regis
    <tr>
       <td>1036..1037</td>
       <td>EnergyReactive_VArAC_Sum_Produced</td>
-      <td>kWh</td>
+      <td>kvarh</td>
    </tr>
    <tr>
       <td>1038..1039</td>
       <td>EnergyReactive_VArAC_Sum_Produced</td>
-      <td>Wh</td>
+      <td>varh</td>
    </tr>
 </table>
 
