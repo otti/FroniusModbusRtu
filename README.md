@@ -24,8 +24,8 @@ Every second
    </tr>
    <tr>
       <td>262..263</td>
-      <td>PowerReal_P_Sum OR PowerFactor_Sum OR Current_AC_Sum???</td>
-      <td></td>
+      <td>PowerReal_P_Sum</td> <!--- Issue #2 thanks Matthias -->
+      <td>0.1 W</td>
    </tr>
    <tr>
       <td>264..265</td>
@@ -39,8 +39,8 @@ Every second
    </tr>
    <tr>
       <td>268..269</td>
-      <td>PowerReal_P_Sum OR PowerFactor_Sum OR Current_AC_Sum???</td>
-      <td></td>
+      <td>PowerFactor_Sum</td> <!--- Issue #2 90% certain :-) -->
+      <td>0.001 °</td>
    </tr>
    <tr>
       <td>270..271</td>
